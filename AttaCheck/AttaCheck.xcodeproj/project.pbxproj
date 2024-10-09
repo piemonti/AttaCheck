@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6CED3D02CB67C0500D1AC07 /* AttaCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CED3CF2CB67C0500D1AC07 /* AttaCheckApp.swift */; };
+		A6CED3D22CB67C0500D1AC07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CED3D12CB67C0500D1AC07 /* ContentView.swift */; };
+		A6CED3D42CB67C0B00D1AC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CED3D32CB67C0B00D1AC07 /* Assets.xcassets */; };
+		A6CED3D72CB67C0B00D1AC07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CED3D62CB67C0B00D1AC07 /* Preview Assets.xcassets */; };
+		A6CED3E22CB67C0C00D1AC07 /* AttaCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CED3E12CB67C0C00D1AC07 /* AttaCheckTests.swift */; };
+		A6CED3EC2CB67C0C00D1AC07 /* AttaCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CED3EB2CB67C0C00D1AC07 /* AttaCheckUITests.swift */; };
+		A6CED3EE2CB67C0C00D1AC07 /* AttaCheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CED3ED2CB67C0C00D1AC07 /* AttaCheckUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6CED3DE2CB67C0C00D1AC07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6CED3C42CB67C0500D1AC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6CED3CB2CB67C0500D1AC07;
+			remoteInfo = AttaCheck;
+		};
+		A6CED3E82CB67C0C00D1AC07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6CED3C42CB67C0500D1AC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6CED3CB2CB67C0500D1AC07;
+			remoteInfo = AttaCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6CED3CC2CB67C0500D1AC07 /* AttaCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttaCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CED3CF2CB67C0500D1AC07 /* AttaCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttaCheckApp.swift; sourceTree = "<group>"; };
+		A6CED3D12CB67C0500D1AC07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6CED3D32CB67C0B00D1AC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6CED3D62CB67C0B00D1AC07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6CED3D82CB67C0B00D1AC07 /* AttaCheck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AttaCheck.entitlements; sourceTree = "<group>"; };
+		A6CED3DD2CB67C0C00D1AC07 /* AttaCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttaCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CED3E12CB67C0C00D1AC07 /* AttaCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttaCheckTests.swift; sourceTree = "<group>"; };
+		A6CED3E72CB67C0C00D1AC07 /* AttaCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttaCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CED3EB2CB67C0C00D1AC07 /* AttaCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttaCheckUITests.swift; sourceTree = "<group>"; };
+		A6CED3ED2CB67C0C00D1AC07 /* AttaCheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttaCheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6CED3C92CB67C0500D1AC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CED3DA2CB67C0C00D1AC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CED3E42CB67C0C00D1AC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6CED3C32CB67C0500D1AC07 = {
+			isa = PBXGroup;
+			children = (
+				A6CED3CE2CB67C0500D1AC07 /* AttaCheck */,
+				A6CED3E02CB67C0C00D1AC07 /* AttaCheckTests */,
+				A6CED3EA2CB67C0C00D1AC07 /* AttaCheckUITests */,
+				A6CED3CD2CB67C0500D1AC07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6CED3CD2CB67C0500D1AC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6CED3CC2CB67C0500D1AC07 /* AttaCheck.app */,
+				A6CED3DD2CB67C0C00D1AC07 /* AttaCheckTests.xctest */,
+				A6CED3E72CB67C0C00D1AC07 /* AttaCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6CED3CE2CB67C0500D1AC07 /* AttaCheck */ = {
+			isa = PBXGroup;
+			children = (
+				A6CED3CF2CB67C0500D1AC07 /* AttaCheckApp.swift */,
+				A6CED3D12CB67C0500D1AC07 /* ContentView.swift */,
+				A6CED3D32CB67C0B00D1AC07 /* Assets.xcassets */,
+				A6CED3D82CB67C0B00D1AC07 /* AttaCheck.entitlements */,
+				A6CED3D52CB67C0B00D1AC07 /* Preview Content */,
+			);
+			path = AttaCheck;
+			sourceTree = "<group>";
+		};
+		A6CED3D52CB67C0B00D1AC07 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6CED3D62CB67C0B00D1AC07 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6CED3E02CB67C0C00D1AC07 /* AttaCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6CED3E12CB67C0C00D1AC07 /* AttaCheckTests.swift */,
+			);
+			path = AttaCheckTests;
+			sourceTree = "<group>";
+		};
+		A6CED3EA2CB67C0C00D1AC07 /* AttaCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6CED3EB2CB67C0C00D1AC07 /* AttaCheckUITests.swift */,
+				A6CED3ED2CB67C0C00D1AC07 /* AttaCheckUITestsLaunchTests.swift */,
+			);
+			path = AttaCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6CED3CB2CB67C0500D1AC07 /* AttaCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CED3F12CB67C0C00D1AC07 /* Build configuration list for PBXNativeTarget "AttaCheck" */;
+			buildPhases = (
+				A6CED3C82CB67C0500D1AC07 /* Sources */,
+				A6CED3C92CB67C0500D1AC07 /* Frameworks */,
+				A6CED3CA2CB67C0500D1AC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttaCheck;
+			productName = AttaCheck;
+			productReference = A6CED3CC2CB67C0500D1AC07 /* AttaCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6CED3DC2CB67C0C00D1AC07 /* AttaCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CED3F42CB67C0C00D1AC07 /* Build configuration list for PBXNativeTarget "AttaCheckTests" */;
+			buildPhases = (
+				A6CED3D92CB67C0C00D1AC07 /* Sources */,
+				A6CED3DA2CB67C0C00D1AC07 /* Frameworks */,
+				A6CED3DB2CB67C0C00D1AC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6CED3DF2CB67C0C00D1AC07 /* PBXTargetDependency */,
+			);
+			name = AttaCheckTests;
+			productName = AttaCheckTests;
+			productReference = A6CED3DD2CB67C0C00D1AC07 /* AttaCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6CED3E62CB67C0C00D1AC07 /* AttaCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CED3F72CB67C0C00D1AC07 /* Build configuration list for PBXNativeTarget "AttaCheckUITests" */;
+			buildPhases = (
+				A6CED3E32CB67C0C00D1AC07 /* Sources */,
+				A6CED3E42CB67C0C00D1AC07 /* Frameworks */,
+				A6CED3E52CB67C0C00D1AC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6CED3E92CB67C0C00D1AC07 /* PBXTargetDependency */,
+			);
+			name = AttaCheckUITests;
+			productName = AttaCheckUITests;
+			productReference = A6CED3E72CB67C0C00D1AC07 /* AttaCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6CED3C42CB67C0500D1AC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A6CED3CB2CB67C0500D1AC07 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A6CED3DC2CB67C0C00D1AC07 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A6CED3CB2CB67C0500D1AC07;
+					};
+					A6CED3E62CB67C0C00D1AC07 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A6CED3CB2CB67C0500D1AC07;
+					};
+				};
+			};
+			buildConfigurationList = A6CED3C72CB67C0500D1AC07 /* Build configuration list for PBXProject "AttaCheck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6CED3C32CB67C0500D1AC07;
+			productRefGroup = A6CED3CD2CB67C0500D1AC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6CED3CB2CB67C0500D1AC07 /* AttaCheck */,
+				A6CED3DC2CB67C0C00D1AC07 /* AttaCheckTests */,
+				A6CED3E62CB67C0C00D1AC07 /* AttaCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6CED3CA2CB67C0500D1AC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CED3D72CB67C0B00D1AC07 /* Preview Assets.xcassets in Resources */,
+				A6CED3D42CB67C0B00D1AC07 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CED3DB2CB67C0C00D1AC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CED3E52CB67C0C00D1AC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6CED3C82CB67C0500D1AC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CED3D22CB67C0500D1AC07 /* ContentView.swift in Sources */,
+				A6CED3D02CB67C0500D1AC07 /* AttaCheckApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CED3D92CB67C0C00D1AC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CED3E22CB67C0C00D1AC07 /* AttaCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CED3E32CB67C0C00D1AC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CED3EC2CB67C0C00D1AC07 /* AttaCheckUITests.swift in Sources */,
+				A6CED3EE2CB67C0C00D1AC07 /* AttaCheckUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6CED3DF2CB67C0C00D1AC07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6CED3CB2CB67C0500D1AC07 /* AttaCheck */;
+			targetProxy = A6CED3DE2CB67C0C00D1AC07 /* PBXContainerItemProxy */;
+		};
+		A6CED3E92CB67C0C00D1AC07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6CED3CB2CB67C0500D1AC07 /* AttaCheck */;
+			targetProxy = A6CED3E82CB67C0C00D1AC07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6CED3EF2CB67C0C00D1AC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6CED3F02CB67C0C00D1AC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A6CED3F22CB67C0C00D1AC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AttaCheck/AttaCheck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AttaCheck/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = piemo.AttaCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A6CED3F32CB67C0C00D1AC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AttaCheck/AttaCheck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AttaCheck/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = piemo.AttaCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A6CED3F52CB67C0C00D1AC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = piemo.AttaCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttaCheck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AttaCheck";
+			};
+			name = Debug;
+		};
+		A6CED3F62CB67C0C00D1AC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = piemo.AttaCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AttaCheck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AttaCheck";
+			};
+			name = Release;
+		};
+		A6CED3F82CB67C0C00D1AC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = piemo.AttaCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AttaCheck;
+			};
+			name = Debug;
+		};
+		A6CED3F92CB67C0C00D1AC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = piemo.AttaCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AttaCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6CED3C72CB67C0500D1AC07 /* Build configuration list for PBXProject "AttaCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CED3EF2CB67C0C00D1AC07 /* Debug */,
+				A6CED3F02CB67C0C00D1AC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6CED3F12CB67C0C00D1AC07 /* Build configuration list for PBXNativeTarget "AttaCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CED3F22CB67C0C00D1AC07 /* Debug */,
+				A6CED3F32CB67C0C00D1AC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6CED3F42CB67C0C00D1AC07 /* Build configuration list for PBXNativeTarget "AttaCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CED3F52CB67C0C00D1AC07 /* Debug */,
+				A6CED3F62CB67C0C00D1AC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6CED3F72CB67C0C00D1AC07 /* Build configuration list for PBXNativeTarget "AttaCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CED3F82CB67C0C00D1AC07 /* Debug */,
+				A6CED3F92CB67C0C00D1AC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6CED3C42CB67C0500D1AC07 /* Project object */;
+}
