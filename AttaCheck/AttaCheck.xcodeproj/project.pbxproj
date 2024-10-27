@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A656865F2CCEA1D100C10306 /* MailExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A656865E2CCEA1D100C10306 /* MailExtension.swift */; };
+		A65686612CCEA1D100C10306 /* ContentBlocker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65686602CCEA1D100C10306 /* ContentBlocker.swift */; };
+		A65686632CCEA1D100C10306 /* ContentBlockerRules.json in Resources */ = {isa = PBXBuildFile; fileRef = A65686622CCEA1D100C10306 /* ContentBlockerRules.json */; };
+		A65686652CCEA1D100C10306 /* MessageActionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65686642CCEA1D100C10306 /* MessageActionHandler.swift */; };
+		A65686672CCEA1D100C10306 /* ComposeSessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65686662CCEA1D100C10306 /* ComposeSessionHandler.swift */; };
+		A65686692CCEA1D100C10306 /* ComposeSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65686682CCEA1D100C10306 /* ComposeSessionViewController.swift */; };
+		A656866B2CCEA1D200C10306 /* ComposeSessionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A656866A2CCEA1D200C10306 /* ComposeSessionViewController.xib */; };
+		A656866D2CCEA1D200C10306 /* MessageSecurityHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A656866C2CCEA1D200C10306 /* MessageSecurityHandler.swift */; };
+		A656866F2CCEA1D200C10306 /* MessageSecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A656866E2CCEA1D200C10306 /* MessageSecurityViewController.swift */; };
+		A65686712CCEA1D200C10306 /* MessageSecurityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A65686702CCEA1D200C10306 /* MessageSecurityViewController.xib */; };
+		A65686762CCEA1D200C10306 /* AttaCheckext.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A656865C2CCEA1D100C10306 /* AttaCheckext.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A6CED3D02CB67C0500D1AC07 /* AttaCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CED3CF2CB67C0500D1AC07 /* AttaCheckApp.swift */; };
 		A6CED3D22CB67C0500D1AC07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CED3D12CB67C0500D1AC07 /* ContentView.swift */; };
 		A6CED3D42CB67C0B00D1AC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CED3D32CB67C0B00D1AC07 /* Assets.xcassets */; };
@@ -17,6 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A65686742CCEA1D200C10306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6CED3C42CB67C0500D1AC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A656865B2CCEA1D100C10306;
+			remoteInfo = AttaCheckext;
+		};
 		A6CED3DE2CB67C0C00D1AC07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A6CED3C42CB67C0500D1AC07 /* Project object */;
@@ -33,7 +51,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A65686772CCEA1D200C10306 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A65686762CCEA1D200C10306 /* AttaCheckext.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A656865C2CCEA1D100C10306 /* AttaCheckext.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AttaCheckext.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A656865E2CCEA1D100C10306 /* MailExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailExtension.swift; sourceTree = "<group>"; };
+		A65686602CCEA1D100C10306 /* ContentBlocker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlocker.swift; sourceTree = "<group>"; };
+		A65686622CCEA1D100C10306 /* ContentBlockerRules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ContentBlockerRules.json; sourceTree = "<group>"; };
+		A65686642CCEA1D100C10306 /* MessageActionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageActionHandler.swift; sourceTree = "<group>"; };
+		A65686662CCEA1D100C10306 /* ComposeSessionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeSessionHandler.swift; sourceTree = "<group>"; };
+		A65686682CCEA1D100C10306 /* ComposeSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeSessionViewController.swift; sourceTree = "<group>"; };
+		A656866A2CCEA1D200C10306 /* ComposeSessionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComposeSessionViewController.xib; sourceTree = "<group>"; };
+		A656866C2CCEA1D200C10306 /* MessageSecurityHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSecurityHandler.swift; sourceTree = "<group>"; };
+		A656866E2CCEA1D200C10306 /* MessageSecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSecurityViewController.swift; sourceTree = "<group>"; };
+		A65686702CCEA1D200C10306 /* MessageSecurityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageSecurityViewController.xib; sourceTree = "<group>"; };
+		A65686722CCEA1D200C10306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65686732CCEA1D200C10306 /* AttaCheckext.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AttaCheckext.entitlements; sourceTree = "<group>"; };
 		A6CED3CC2CB67C0500D1AC07 /* AttaCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AttaCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6CED3CF2CB67C0500D1AC07 /* AttaCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttaCheckApp.swift; sourceTree = "<group>"; };
 		A6CED3D12CB67C0500D1AC07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +93,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A65686592CCEA1D100C10306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6CED3C92CB67C0500D1AC07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -72,12 +124,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A656865D2CCEA1D100C10306 /* AttaCheckext */ = {
+			isa = PBXGroup;
+			children = (
+				A656865E2CCEA1D100C10306 /* MailExtension.swift */,
+				A65686602CCEA1D100C10306 /* ContentBlocker.swift */,
+				A65686622CCEA1D100C10306 /* ContentBlockerRules.json */,
+				A65686642CCEA1D100C10306 /* MessageActionHandler.swift */,
+				A65686662CCEA1D100C10306 /* ComposeSessionHandler.swift */,
+				A65686682CCEA1D100C10306 /* ComposeSessionViewController.swift */,
+				A656866A2CCEA1D200C10306 /* ComposeSessionViewController.xib */,
+				A656866C2CCEA1D200C10306 /* MessageSecurityHandler.swift */,
+				A656866E2CCEA1D200C10306 /* MessageSecurityViewController.swift */,
+				A65686702CCEA1D200C10306 /* MessageSecurityViewController.xib */,
+				A65686722CCEA1D200C10306 /* Info.plist */,
+				A65686732CCEA1D200C10306 /* AttaCheckext.entitlements */,
+			);
+			path = AttaCheckext;
+			sourceTree = "<group>";
+		};
 		A6CED3C32CB67C0500D1AC07 = {
 			isa = PBXGroup;
 			children = (
 				A6CED3CE2CB67C0500D1AC07 /* AttaCheck */,
 				A6CED3E02CB67C0C00D1AC07 /* AttaCheckTests */,
 				A6CED3EA2CB67C0C00D1AC07 /* AttaCheckUITests */,
+				A656865D2CCEA1D100C10306 /* AttaCheckext */,
 				A6CED3CD2CB67C0500D1AC07 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +160,7 @@
 				A6CED3CC2CB67C0500D1AC07 /* AttaCheck.app */,
 				A6CED3DD2CB67C0C00D1AC07 /* AttaCheckTests.xctest */,
 				A6CED3E72CB67C0C00D1AC07 /* AttaCheckUITests.xctest */,
+				A656865C2CCEA1D100C10306 /* AttaCheckext.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +205,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A656865B2CCEA1D100C10306 /* AttaCheckext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A656867A2CCEA1D200C10306 /* Build configuration list for PBXNativeTarget "AttaCheckext" */;
+			buildPhases = (
+				A65686582CCEA1D100C10306 /* Sources */,
+				A65686592CCEA1D100C10306 /* Frameworks */,
+				A656865A2CCEA1D100C10306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AttaCheckext;
+			productName = AttaCheckext;
+			productReference = A656865C2CCEA1D100C10306 /* AttaCheckext.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A6CED3CB2CB67C0500D1AC07 /* AttaCheck */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6CED3F12CB67C0C00D1AC07 /* Build configuration list for PBXNativeTarget "AttaCheck" */;
@@ -139,10 +229,12 @@
 				A6CED3C82CB67C0500D1AC07 /* Sources */,
 				A6CED3C92CB67C0500D1AC07 /* Frameworks */,
 				A6CED3CA2CB67C0500D1AC07 /* Resources */,
+				A65686772CCEA1D200C10306 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A65686752CCEA1D200C10306 /* PBXTargetDependency */,
 			);
 			name = AttaCheck;
 			productName = AttaCheck;
@@ -195,6 +287,9 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					A656865B2CCEA1D100C10306 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					A6CED3CB2CB67C0500D1AC07 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -224,11 +319,22 @@
 				A6CED3CB2CB67C0500D1AC07 /* AttaCheck */,
 				A6CED3DC2CB67C0C00D1AC07 /* AttaCheckTests */,
 				A6CED3E62CB67C0C00D1AC07 /* AttaCheckUITests */,
+				A656865B2CCEA1D100C10306 /* AttaCheckext */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A656865A2CCEA1D100C10306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A656866B2CCEA1D200C10306 /* ComposeSessionViewController.xib in Resources */,
+				A65686632CCEA1D100C10306 /* ContentBlockerRules.json in Resources */,
+				A65686712CCEA1D200C10306 /* MessageSecurityViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6CED3CA2CB67C0500D1AC07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -255,6 +361,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A65686582CCEA1D100C10306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65686612CCEA1D100C10306 /* ContentBlocker.swift in Sources */,
+				A65686652CCEA1D100C10306 /* MessageActionHandler.swift in Sources */,
+				A656866D2CCEA1D200C10306 /* MessageSecurityHandler.swift in Sources */,
+				A65686692CCEA1D100C10306 /* ComposeSessionViewController.swift in Sources */,
+				A65686672CCEA1D100C10306 /* ComposeSessionHandler.swift in Sources */,
+				A656866F2CCEA1D200C10306 /* MessageSecurityViewController.swift in Sources */,
+				A656865F2CCEA1D100C10306 /* MailExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6CED3C82CB67C0500D1AC07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,6 +404,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A65686752CCEA1D200C10306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A656865B2CCEA1D100C10306 /* AttaCheckext */;
+			targetProxy = A65686742CCEA1D200C10306 /* PBXContainerItemProxy */;
+		};
 		A6CED3DF2CB67C0C00D1AC07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A6CED3CB2CB67C0500D1AC07 /* AttaCheck */;
@@ -297,6 +422,56 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		A65686782CCEA1D200C10306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AttaCheckext/AttaCheckext.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AttaCheckext/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AttaCheckext;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = piemo.AttaCheck.AttaCheckext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A65686792CCEA1D200C10306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AttaCheckext/AttaCheckext.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AttaCheckext/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AttaCheckext;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = piemo.AttaCheck.AttaCheckext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		A6CED3EF2CB67C0C00D1AC07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -418,6 +593,7 @@
 		A6CED3F22CB67C0C00D1AC07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AttaCheck/AttaCheck.entitlements;
@@ -443,6 +619,7 @@
 		A6CED3F32CB67C0C00D1AC07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AttaCheck/AttaCheck.entitlements;
@@ -536,6 +713,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A656867A2CCEA1D200C10306 /* Build configuration list for PBXNativeTarget "AttaCheckext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65686782CCEA1D200C10306 /* Debug */,
+				A65686792CCEA1D200C10306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A6CED3C72CB67C0500D1AC07 /* Build configuration list for PBXProject "AttaCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
